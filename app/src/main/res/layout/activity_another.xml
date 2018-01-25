@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_definida_no_styles_xml"
+            android:textSize="@dimen/font_size_sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/lobster_two_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_modificada_por_style_no_xml" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_definida_no_styles_xml_style_bold_e_italic"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XMLFont</string>
+    <string name="font_definida_no_styles_xml">Font definida no styles.xml</string>
+    <string name="font_definida_no_styles_xml_style_bold_e_italic">Font definida no styles.xml, style bold e italic</string>
+    <string name="font_modificada_por_style_no_xml">font modificada por style no xml do component</string>
+    <string name="font_modificada_por_style_no_xml_bold">font modificada por style no xml do component, aplicado bold</string>
+    <string name="font_modificada_programaticamente_na_activity">font modificada programaticamente na activity</string>
+    <string name="font_modificada_programaticamente_na_activity_bold_italic">font modificada programaticamente na activity, aplicado bold e italic</string>
+</resources>

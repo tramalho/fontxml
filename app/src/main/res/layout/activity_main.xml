@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:context="br.com.tramalho.xmlfont.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showAnotherAct"
+            android:text="@string/font_definida_no_styles_xml"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_definida_no_styles_xml"
+            android:textSize="@dimen/font_size_sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_definida_no_styles_xml_style_bold_e_italic"
+            android:textSize="@dimen/font_size_sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent" />
+
+
+        <TextView
+            style="@style/old_standard_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_modificada_por_style_no_xml"
+            android:textSize="@dimen/font_size_sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            style="@style/old_standard_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_modificada_por_style_no_xml_bold"
+            android:textSize="@dimen/font_size_sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/text_view_prog_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_modificada_programaticamente_na_activity"
+            android:textSize="@dimen/font_size_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/text_view_prog_id_styles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/font_modificada_programaticamente_na_activity_bold_italic"
+            android:textSize="@dimen/font_size_sp" />
+
+    </LinearLayout>
+</ScrollView>
+
